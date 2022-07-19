@@ -14,7 +14,7 @@
 .productos-starwars,.productos-cosolas,.productos-diversos{
     display: flex;
     flex-direction:row;
-
+    box-sizing: border-box;
     margin: 2rem 0rem;
 }
 
@@ -36,7 +36,7 @@
     .productos-starwars,.productos-cosolas,.productos-diversos{
         display: flex;
         flex-direction:row;
-    
+        box-sizing: border-box;
         margin: 2rem 0rem;
     }
     
