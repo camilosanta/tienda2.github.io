@@ -5,7 +5,7 @@
 
 var creandoProducto = async () => {
  // creando fecth APPI (fetch viene por defecto con el metodo http = GET)
-    const respuesta = await fetch("  http://localhost:3000/imagen);
+    const respuesta = await fetch("  http://localhost:3000/imagen");
     return await respuesta.json();
 };
 
@@ -40,7 +40,7 @@ var publicandoNuevoProducto = (url,nombre,precio,categoria,eliminar,editar,verma
 // detalles producto  obtine los datos del producto para pasarlos al editor 
 
 const detallesProducto = (id) =>{
-    return fetch(` http://localhost:3000/imagen/${id}`).then((respuesta) =>  respuesta.json());
+    return fetch(` http://localhost:3000/imagen${id}`).then((respuesta) =>  respuesta.json());
 };
 
 
