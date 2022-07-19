@@ -1,10 +1,10 @@
 var obteniendoDatos = () =>{
-    return fetch("https://github.com/camilosanta/tienda2.github.io/blob/main/db.json/registro")
+    return fetch("https://tiendaonlinee.herokuapp.com/db.json/registro")
 }
 
 
 var publicandoNuevousuario = (correo,contraseña,registro) =>{
-       return fetch("https://github.com/camilosanta/tienda2.github.io/blob/main/db.json/registro",{
+       return fetch("https://tiendaonlinee.herokuapp.com/db.json/registro",{
            method:"POST",
            headers:{
                "Content-Type":"application/json"
