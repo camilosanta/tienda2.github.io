@@ -1,10 +1,10 @@
 var obteniendoDatos = () =>{
-    return fetch("https://tiendaonlinee.herokuapp.com/db.json/registro")
+    return fetch("http://localhost:3000/registro")
 }
 
 
 var publicandoNuevousuario = (correo,contraseña,registro) =>{
-       return fetch("https://tiendaonlinee.herokuapp.com/db.json/registro",{
+       return fetch("http://localhost:3000/registro",{
            method:"POST",
            headers:{
                "Content-Type":"application/json"
