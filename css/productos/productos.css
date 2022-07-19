@@ -1,0 +1,59 @@
+*{ 
+    font-family: 'Raleway';
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.producto-s1,.producto-s2,.producto-s2{
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 0.8rem;
+    
+}
+
+.productos-starwars,.productos-cosolas,.productos-diversos{
+    display: flex;
+    flex-direction:row;
+
+    margin: 2rem 0rem;
+}
+
+@media only screen and (min-width: 1199px) {
+    .producto-s1,.producto-s2,.producto-s2{
+        display: flex;
+        flex-direction: column;
+    
+        margin-left: 0.8rem;
+        
+    }
+    
+    .productos-starwars,.productos-cosolas,.productos-diversos{
+        display: flex;
+        flex-direction:row;
+    
+        margin: 2rem 0rem;
+    }
+    
+}
+/*Celular*/
+
+@media only screen and (max-width: 768px) {
+
+    .producto-s1,.producto-s2,.producto-s2{
+        display: flex;
+        flex-direction: column;
+    
+        margin-left: 0.8rem;
+        
+    }
+    
+    .productos-starwars,.productos-cosolas,.productos-diversos{
+        display: flex;
+        flex-direction:row;
+    
+        margin: 1srem 0rem;
+    }
+}

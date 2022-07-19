@@ -1,0 +1,33 @@
+.tilos{
+    display: flex;
+    align-items: center;
+}
+
+.tilos a{
+ margin: 0px 2rem;
+}
+
+.sp-titulo-1.sp-titulo-2,.sp-titulo-3{
+    display: flex;
+    flex-direction: column;
+    margin: 0.2rem 2px;
+}
+.precios-procuctos{
+    font-size: 16px;
+    color: rgb(94, 94, 94);
+    font-weight: 100;
+
+    margin: 0.2rem 0px;
+}
+.precios-procuctos:hover{
+    font-size: 20px;
+    color: rgb(126, 47, 47);
+    font-weight: 100;
+
+    margin: 0.2rem 0px;
+    cursor: pointer
+}
+
+.titulos-producto-s1{
+    font-size: 14px;
+}

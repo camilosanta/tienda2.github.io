@@ -1,0 +1,38 @@
+.eliminar{
+    background-color: red;
+    border: none;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-radius: 10px ;
+    width: 35px;
+    height: 30px;
+    transition: all 1s;
+}
+
+.eliminar:hover{
+    background-color: rgb(43, 15, 15);
+
+}
+
+.editar,.shopping_cart{
+    background-color: rgb(7, 83, 26);
+    border: none;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-radius: 10px ;
+    width: 35px;
+    height: 30px;
+  margin-left:0.2rem ;
+  transition: all 1s;
+}
+
+.editar:hover,.shopping_cart:hover{
+    background-color: rgb(12, 32, 17);
+   
+}
+
+.ocultar{
+    display: none;
+}

@@ -1,0 +1,9 @@
+.Controles-de-ediccio{
+    display: flex;
+    flex-direction: row;
+   
+}
+.Controles-de-desarollo{
+    display: flex;
+    flex-direction: row;
+}

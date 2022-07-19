@@ -1,0 +1,14 @@
+.nav-busqueda{
+    width: 343px;
+    height: 40px;
+    align-items: center;
+    background: #F5F5F5;
+    border-radius: 20px;
+    border: none;
+    align-items: center;
+}
+
+.nav-busqueda:focus{
+    border: none;
+    outline: none;
+}

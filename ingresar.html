@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/comandos.css">
+    <link rel="stylesheet" href="css/nava-principal/logo/logo.css">
+    <link rel="stylesheet" href="css/nava-principal/navprinncipal.css">
+    <link rel="stylesheet" href="css/nava-principal/busqueda/busqueda.css">
+    <link rel="stylesheet" href="css/nava-principal/busqueda/busqueda-inpt.css">
+    <link rel="stylesheet" href="css/nava-principal/busqueda/boton-busqueda.css">
+    <link rel="stylesheet" href="css/nava-principal/boton/boton-container.css">
+    <link rel="stylesheet" href="css/nava-principal/boton/boton-login.css">
+    <link rel="stylesheet" href="css/informacion/info.css">
+    <link rel="stylesheet" href="css/informacion/inputs.css">
+    <link rel="stylesheet" href="css/informacion/titulos-info.css">
+    <link rel="stylesheet" href="css/productossubir/btn.css">
+    <link rel="stylesheet" href="css/productossubir/formulario.css">
+    <link rel="stylesheet" href="css/productossubir/inputs.css">
+    <title>Inicio de seccion</title>
+</head>
+<header class="nav-principal">
+    <div class="logo-principla"><img src="img/logo/aluraGeeklogo.png" alt="logo-principla"> <h2 class="titulo1-logo">ALura</h2><h2 class="titulo2-logo">Geek</h2></div>
+    <div class="nav-busqueda-containae">
+        <input type="search" class="nav-busqueda">
+        <img src="img/busqueda/busquedalogo.png" alt="" class="btn-busqueda">
+    </div>
+    <div class="boton-login">
+        <a href="index.html">
+            <button class="boton-login-btyn">Pagina-principal</button>
+        </a>
+    </div>
+    
+</header>
+<form class="subir-productos" data-forminicio>
+
+    <label for="link-subir-img">Correo</label>
+    <input type="email" class="link-subir-img"   data-correo> 
+
+
+    <label for="name-producto">Contreseña</label>
+    <input type="password"  class="name-productos"  data-contraseña>
+
+    <input type="submit" value="Registrarse" class="btn-producto" data-botonLogin>
+</form>
+
+
+
+<section class="contactanos">
+    <div class="logo-ctms"> 
+        <div class="logo-principla"><img src="img/logo/aluraGeeklogo.png" alt="logo-principla"> <h2 class="titulo1-logo">ALura</h2><h2 class="titulo2-logo">Geek</h2></div>
+    </div>
+
+    <div class="info">
+        <ol class="informacion">
+            <li class="itmes-inf">Quienes somos</li>
+            <li class="itmes-inf">Politica de privacidad</li>
+            <li class="itmes-inf">Programa de fidelidad</li>
+            <li class="itmes-inf">Nuestras Tiendas</li>
+            <li class="itmes-inf">Quiero ser franquiciado</li>
+            <li class="itmes-inf">Anuncie aqui</li>
+        </ol>
+    </div>
+
+    <form class="formulario-info" >
+        <h4 class="titulo-info-info">Hable con nosotros</h4>
+        <div class="nombre-containee">
+            <label for="nombre-info">Nombre</label>
+            <input type="text" class="nombre-info" placeholder="Fulano de tal">
+        </div>
+        <textarea class="mensaje-info"></textarea>
+        <input type="submit" value="Enviarmensaje" class="btn-info" >
+    </form>
+
+</section>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+   var formulario =  document.querySelector("[data-forminicio]")
+    formulario.addEventListener("submit",() =>{
+        alert("el inicio de seccion esta deshabilitado debido a que esta es la primera vercion || Nota solo puedes logiarte || vercion 2 fecha de salida 21/07/2022");
+        
+    })
+
+</script>
+</html>

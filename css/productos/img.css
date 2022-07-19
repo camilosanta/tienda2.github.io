@@ -1,0 +1,19 @@
+.img-productos{
+    width: 176px;
+    height: 174px; 
+}
+@media only screen and (min-width: 1199px) {
+    .img-productos{
+        width: 176px;
+        height: 174px; 
+    }
+}
+/*Celular*/
+
+@media only screen and (max-width: 768px) {
+
+    .img-productos{
+        width: 156px;
+        height: 174px;
+    }
+}

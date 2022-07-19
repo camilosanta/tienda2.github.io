@@ -1,0 +1,42 @@
+.btn-producto{
+    width: 559px;
+    height: 51px;
+    border: none;
+    background-color:#2A7AE4;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+@media only screen and (min-width: 1199px) {
+    .btn-producto{
+        width: 109px;
+        height: 40px;
+        border: none;
+        background-color:#2A7AE4;
+        color: white;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    
+    
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+    .btn-producto{
+        width: 109px;
+        height: 40px;
+        border: none;
+        background-color:#2A7AE4;
+        color: white;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    
+    
+    
+       
+   }
+   

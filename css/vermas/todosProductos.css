@@ -1,0 +1,21 @@
+.Todos-los-productos{
+    display: flex;
+    flex-direction:row;
+
+    margin: 2rem 0rem;
+
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.productoNUevo{
+    margin-left: 0.8rem;
+    margin-top: 2rem ;
+    margin-bottom: 2rem;
+}
+
+/*img*/
+
+.img-vermas{
+    width: 176px;
+    height: 174px; 
+}

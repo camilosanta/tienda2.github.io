@@ -1,0 +1,55 @@
+.banner-titulos{
+    position: absolute;
+    top: 325px;
+    color: white;
+}
+.titulo-banner-principal{
+    margin-left: 2rem;
+    font-size: 52px;
+    
+}
+.subtitutuloBanner{
+    margin-left: 2rem;
+    font-size: 22px;
+}
+
+
+@media only screen and (min-width: 1199px) {
+    .banner-titulos{
+        position: absolute;
+        top: 325px;
+        color: white;
+    }
+    .titulo-banner-principal{
+        margin-left: 2rem;
+        font-size: 52px;
+        
+    }
+    .subtitutuloBanner{
+        margin-left: 2rem;
+        font-size: 22px;
+    }
+    
+}
+/*Celular*/
+
+@media only screen and (max-width: 768px) {
+
+    .banner-titulos{
+        position: absolute;
+        top: 150px;
+        color: rgb(255, 253, 253);
+        font-weight: bolder;
+    }
+    .titulo-banner-principal{
+        margin-left: 2rem;
+        font-size: 22px;
+        
+    }
+    .subtitutuloBanner{
+        margin-left: 2rem;
+        font-size: 14px;
+    }
+    
+
+}

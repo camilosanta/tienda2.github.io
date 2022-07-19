@@ -1,0 +1,43 @@
+.informacion{
+    list-style: none;
+}
+.itmes-inf{
+    margin-top: 10px;
+    color: #464646;
+    font-size: 16px;
+}
+.titulo-info-info{
+    font-size: 16px;
+}
+
+@media only screen and (min-width: 1199px) {
+    .informacion{
+        list-style: none;
+    }
+    .itmes-inf{
+        margin-top: 10px;
+        color: #464646;
+        font-size: 16px;
+    }
+    .titulo-info-info{
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .informacion{
+        list-style: none;
+    }
+    .itmes-inf{
+        margin-top: 10px;
+        color: #464646;
+        font-size: 16px;
+    }
+    .titulo-info-info{
+        font-size: 16px;
+    }
+       
+   }
+   

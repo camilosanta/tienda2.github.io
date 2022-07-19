@@ -1,0 +1,16 @@
+.bannnerimg{
+    background: url(../../img/banner/bannner.png) no-repeat;
+    width: 100%;
+    height: 352px;
+}
+
+.boton-banner{
+    width: 129px;
+    height: 51px;
+    border: none;
+    background: #2A7AE4;
+
+    color: white;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+}

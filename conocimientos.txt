@@ -1,0 +1,120 @@
+// ABRIR HTTP (metodo, url)
+
+// CRUO  (CREAR,LEER,ACTULIZA Y ELIMINAR
+
+
+/*
+
+CRUD - METODOS
+CREATE - POST
+READ - GET 
+UPPDATE - PUT/PATCH
+DELETE - DELETE 
+
+*/
+
+Primera obcion para llamar un http
+
+var seccion1 = document.querySelector(".productos-starwars")
+const http = new XMLHttpRequest();
+// ABRIR HTTP (metodo, url)
+
+// CRUO  (CREAR,LEER,ACTULIZA Y ELIMINAR
+
+
+/*
+
+CRUD - METODOS
+CREATE - POST
+READ - GET 
+UPPDATE - PUT/PATCH
+DELETE - DELETE 
+
+*/
+
+http.open("GET", "http://localhost:3000/imagen")
+
+http.send() // envia la peticion al servidor
+
+
+// obtiene la informacion del servidor 
+
+http.onload = () =>{
+    var info = JSON.parse(http.response); // JSON.parse(http.response) = la respuesta del servidor la manda en formato JS ya que viene en tipo string
+
+    info.forEach(element => {
+        var productogenerar1 = crearnuevoproducto1(element.url, element.nombre,element.precio)  // coloca los datos en la funcion que crea el producto
+        seccion1.appendChild(productogenerar1)
+    });
+}
+
+
+/-------------------------------------Promesas--------------------------------------------------------------------------------------------------------/
+
+// promesa no FETCH APPI NOMALES : 
+
+// promesas funcion
+
+
+var creandoProducto = () => {
+    //genera promesa
+    var promise = new Promise((resolve,reject) => {
+
+        const http = new XMLHttpRequest();
+        http.open("GET", " http://localhost:3000/imagen")
+        http.send() // envia la peticion al servidor
+
+
+        // obtiene la informacion del servidor 
+
+        http.onload = () =>{
+        var response = JSON.parse(http.response); // JSON.parse(http.response) = la respuesta del servidor la manda en formato JS ya que viene en tipo string
+
+            if(http.status >= 400){
+                // ahi un error en peticion
+                reject(response) // llama a reject (que ejecuta la linea de en caso de error)
+            }else{
+                // encaso de que status no tenga error (400)
+                resolve(response) // llama a resolve cuando no tiene errores
+            }
+        }
+
+    })  // crea una promesa
+
+    return promise 
+};
+
+// .then(en caso de respuesta ejecuta la funcion ) y crach (encaso de erro ejecuta la siguiente funcion) 
+// llama la promesa 
+creandoProducto().then((data) =>{
+    data.forEach((element) => {
+        var productogenerar1 = crearnuevoproducto1(element.url, element.nombre,element.precio)  // coloca los datos en la funcion que crea el producto
+        seccion1.appendChild(productogenerar1)
+    });
+})
+
+
+------------------------------------------------------------- FETCH APPI --------------------------------------------------------------------------------------------------
+
+// Fetch APPI (es una funcion nativa del navegador)
+
+
+var creandoProducto = () => {
+ // creando fecth APPI (fetch viene por defecto con el metodo http = GET)
+    return fetch("http://localhost:3000/imagen").then((respuesta) => {
+        return respuesta.json(); // a la respuesta le da un formato Json
+    });
+};
+
+// .then(en caso de respuesta ejecuta la funcion ) y crach (encaso de erro ejecuta la siguiente funcion) 
+// llama la promesa 
+creandoProducto().then((data) =>{
+    data.forEach((element) => {
+        var productogenerar1 = crearnuevoproducto1(element.url, element.nombre,element.precio)  // coloca los datos en la funcion que crea el producto
+        seccion1.appendChild(productogenerar1)
+    });
+}).catch((error) => alert("ocurrio un error"))
+
+------------------------------------------------------------- Separando responsabilidades --------------------------------------------------------------------------------------------------
+
+haciendo exportaciones (export) y importaciones 

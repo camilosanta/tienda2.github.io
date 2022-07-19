@@ -1,0 +1,81 @@
+.bannnerimg{
+    background: url(../../img/banner/bannner.png) no-repeat;
+    width: 100%;
+    height: 352px;
+}
+
+.boton-banner{
+    width: 129px;
+    height: 51px;
+    border: none;
+    background: #2A7AE4;
+
+    color: white;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+}
+/*Pc moderna */
+
+@media only screen and (min-width: 1918px) {
+    .bannnerimg{
+        background: url(../../img/banner/bannner.png);
+        width: 100%;
+        height: 352px;
+    }
+    
+    .boton-banner{
+        width: 129px;
+        height: 51px;
+        border: none;
+        background: #2A7AE4;
+    
+        color: white;
+        margin-top: 0.5rem;
+        margin-left: 2rem;
+    }
+    
+}
+
+
+@media only screen and (max-width: 1917) {
+    .bannnerimg{
+        background: url(../../img/banner/bannner.png);
+        width: 100%;
+        height: 352px;
+    }
+    
+    .boton-banner{
+        width: 129px;
+        height: 51px;
+        border: none;
+        background: #2A7AE4;
+    
+        color: white;
+        margin-top: 0.5rem;
+        margin-left: 2rem;
+    }
+    
+}
+/*Celular*/
+
+@media only screen and (max-width: 768px) {
+
+    .bannnerimg{
+        background: url(../../img/banner/bannner.png)no-repeat ;
+        width: 100%;
+        height: 192px;
+    }
+    
+    .boton-banner{
+        width: 118px;
+        height: 40px;
+        border: none;
+        background: #2A7AE4;
+    
+        color: white;
+        margin-top: 0.5rem;
+        margin-left: 2rem;
+    }
+    
+
+}

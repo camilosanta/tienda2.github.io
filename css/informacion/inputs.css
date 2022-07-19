@@ -1,0 +1,140 @@
+.nombre-containee{
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    margin-top: 10px;
+}
+
+
+.nombre-info{
+    width: 560px;
+    height: 56px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+.nombre-info:focus{
+    border: none;
+    outline: none;
+}
+.mensaje-info{
+    margin-top: 15px;
+    width: 560px;
+    height: 82px;
+    border-radius: 4px;
+    border: none;
+    resize: none;
+}
+.mensaje-info:focus{
+    border: none;
+    outline: none;
+}
+
+.btn-info{
+    margin-top: 15px;
+    width: 144px;
+    height: 51px;
+    color: #FFFFFF;
+    border: none;
+    background: #2A7AE4;
+
+}
+
+
+@media only screen and (min-width: 1199px) {
+    .nombre-containee{
+        display: flex;
+        flex-direction: column;
+        background: #ffffff;
+        margin-top: 10px;
+    }
+    
+    
+    .nombre-info{
+        width: 560px;
+        height: 56px;
+        border: none;
+        background: #FFFFFF;
+        border-radius: 4px;
+    }
+    .nombre-info:focus{
+        border: none;
+        outline: none;
+    }
+    .mensaje-info{
+        margin-top: 15px;
+        width: 560px;
+        height: 82px;
+        border-radius: 4px;
+        border: none;
+        resize: none;
+    }
+    .mensaje-info:focus{
+        border: none;
+        outline: none;
+    }
+    
+    .btn-info{
+        margin-top: 15px;
+        width: 144px;
+        height: 51px;
+        color: #FFFFFF;
+        border: none;
+        background: #2A7AE4;
+    
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .nombre-containee{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background: #ffffff;
+        margin-top: 10px;
+        box-sizing: border-box;
+    }
+    
+    
+    .nombre-info{
+     
+        width: 328px;
+        height: 56px;
+         border: none;
+        margin: 25px 5px;
+        background: #FFFFFF;
+        border-radius: 4px;
+
+    }
+    .nombre-info:focus{
+        border: none;
+        outline: none;
+    }
+    .mensaje-info{
+        width: 328px;
+        height: 56px;
+        margin: 10px 5px;
+        border-radius: 4px;
+        border: none;
+        resize: none;
+        
+    }
+    .mensaje-info:focus{
+        border: none;
+        outline: none;
+    }
+    
+    .btn-info{
+        margin-top: 15px;
+        width: 144px;
+        height: 51px;
+        color: #FFFFFF;
+        border: none;
+        background: #2A7AE4;
+    
+    }
+       
+   }
+   

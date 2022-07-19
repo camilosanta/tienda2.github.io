@@ -1,0 +1,207 @@
+{
+  "imagen": [
+    {
+      "url": "img/productos/1.png",
+      "nombre": "Producto xyz",
+      "precio": "60.00",
+      "eliminar": "eliminar",
+      "editar": "editar",
+      "vermas": "si",
+      "categoria": "Star Wars",
+      "id": "b965ca02-f4ad-4b8b-8788-82ddc9d8a65b"
+    },
+    {
+      "url": "img/productos/2.png",
+      "nombre": "Producto xyz",
+      "precio": "60.00",
+      "eliminar": "eliminar",
+      "editar": "editar",
+      "vermas": "si",
+      "categoria": "Star Wars",
+      "id": "4ad2966f-d17f-4415-9a8e-baeda0b0c195"
+    },
+    {
+      "url": "img/productos/7.png",
+      "nombre": "Consola xyz",
+      "precio": "60.00",
+      "eliminar": "eliminar",
+      "editar": "editar",
+      "vermas": "si",
+      "categoria": "Consolas",
+      "id": "aad0c6cb-ed42-4deb-a629-18783da9525a"
+    },
+    {
+      "url": "img/productos/13.png",
+      "nombre": "Diversos xyz",
+      "precio": "60.00",
+      "eliminar": "eliminar",
+      "editar": "editar",
+      "vermas": "si",
+      "categoria": "Diversos",
+      "id": "4701c2d6-ffeb-4cdf-ab89-8db7b1cac88a"
+    },
+    {
+      "url": "img/productos/3.png",
+      "nombre": "Producto xyz",
+      "precio": "60.00",
+      "eliminar": "eliminar",
+      "editar": "editar",
+      "vermas": "si",
+      "categoria": "Star Wars",
+      "id": "b9dd2884-9f93-488f-bd1f-90f09899e408"
+    },
+    {
+      "url": "img/productos/4.png",
+      "nombre": "Producto xyz",
+      "precio": "60.00",
+      "eliminar": "eliminar",
+      "editar": "editar",
+      "vermas": "si",
+      "categoria": "Star Wars",
+      "id": "5ab89190-c978-4794-a96b-d507650b42b9"
+    },
+    {
+      "url": "img/productos/5.png",
+      "nombre": "Producto xyz",
+      "precio": "60.00",
+      "eliminar": "eliminar",
+      "editar": "editar",
+      "vermas": "si",
+      "categoria": "Star Wars",
+      "id": "4fee2921-4124-4d9c-a658-8721737c0977"
+    },
+    {
+      "url": "img/productos/6.png",
+      "nombre": "Producto xyz ",
+      "precio": "60.00",
+      "eliminar": "eliminar",
+      "editar": "editar",
+      "vermas": "si",
+      "categoria": "Star Wars",
+      "id": "fc36eaca-547f-4b01-ae15-2e99421b15ac"
+    },
+    {
+      "url": "img/productos/8.png",
+      "nombre": "Consola xyz",
+      "precio": "60.00",
+      "eliminar": "eliminar",
+      "editar": "editar",
+      "vermas": "si",
+      "categoria": "Consolas",
+      "id": "a7099c55-e749-468c-beae-866cf2127883"
+    },
+    {
+      "url": "img/productos/9.png",
+      "nombre": "Consola xyz",
+      "precio": "60.00",
+      "eliminar": "eliminar",
+      "editar": "editar",
+      "vermas": "si",
+      "categoria": "Consolas",
+      "id": "d66adf3d-07a5-4e16-b2de-fdc256d91195"
+    },
+    {
+      "url": "img/productos/11.png",
+      "nombre": "Consola xyz",
+      "precio": "60.00",
+      "categoria": "Consolas",
+      "eliminar": "eliminar",
+      "editar": "editar",
+      "vermas": "si",
+      "id": "99ad9d26-200d-46ff-b94f-24e88e1b20d4"
+    },
+    {
+      "url": "img/productos/12.png",
+      "nombre": "Consola xyz",
+      "precio": "60.00",
+      "eliminar": "eliminar",
+      "editar": "editar",
+      "vermas": "si",
+      "categoria": "Consolas",
+      "id": "45bf357b-5f49-4e14-99eb-2ae1231e108e"
+    },
+    {
+      "url": "img/productos/14.png",
+      "nombre": "Diversos xyz",
+      "precio": "60.00",
+      "categoria": "Diversos",
+      "eliminar": "eliminar",
+      "editar": "editar",
+      "vermas": "si",
+      "id": "e20e1be2-4f86-4516-8990-b9a50af71f30"
+    },
+    {
+      "url": "img/productos/15.png",
+      "nombre": "Diversos xyz",
+      "precio": "60.00",
+      "eliminar": "eliminar",
+      "editar": "editar",
+      "vermas": "si",
+      "categoria": "Diversos",
+      "id": "836285c1-0c5f-4116-bed8-c96bb0187cd7"
+    },
+    {
+      "url": "img/productos/16.png",
+      "nombre": "Diversos xyz ",
+      "precio": "60.00",
+      "eliminar": "eliminar",
+      "editar": "editar",
+      "vermas": "si",
+      "categoria": "Diversos",
+      "id": "0ca2ee7e-09f5-41ed-a7fc-bbb044ddd47a"
+    },
+    {
+      "url": "img/productos/17.png",
+      "nombre": "Diversos xyz",
+      "precio": "60.00",
+      "eliminar": "eliminar",
+      "editar": "editar",
+      "vermas": "si",
+      "categoria": "Diversos",
+      "id": "e181a0b2-2fb5-4597-bcdf-4f1f6608751c"
+    },
+    {
+      "url": "img/productos/18.png",
+      "nombre": "Diversos xyz",
+      "precio": "60.00",
+      "eliminar": "eliminar",
+      "editar": "editar",
+      "vermas": "si",
+      "categoria": "Diversos",
+      "id": "b013cc3f-94da-497f-9289-ce8598511d8c"
+    }
+  ],
+  "registro": [
+    {},
+    {
+      "correo": "santacruz1357@gmail.com",
+      "contraseña": "c4m1l052",
+      "registro": "si",
+      "id": "8ff0a1b7-2191-434b-8edb-2dfcbfdf1906"
+    },
+    {
+      "correo": "ejemplo@gmail.com",
+      "contraseña": "cjkiefijeidjifjiejeief",
+      "registro": "si",
+      "id": "25991166-13cf-436c-8147-9f31723b763a"
+    },
+    {
+      "correo": "ejemplo@gmail.com",
+      "contraseña": "cjkiefijeidjifjiejeief",
+      "registro": "si",
+      "id": "00ce68d3-5505-42b6-b31c-a368af501c6f"
+    },
+    {
+      "correo": "ejemplo@gmail.com",
+      "contraseña": "cjkiefijeidjifjiejeief",
+      "registro": "si",
+      "id": "543768e9-9864-43d9-babf-312479f6d72a"
+    },
+    {
+      "correo": "ejemplo@gmail.com",
+      "contraseña": "cjkiefijeidjifjiejeief",
+      "registro": "si",
+      "id": "5cf105e2-7828-42f0-b4d3-9623d641916f"
+    }
+  ]
+}

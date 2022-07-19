@@ -1,0 +1,14 @@
+.banner-titulos{
+    position: absolute;
+    top: 325px;
+    color: white;
+}
+.titulo-banner-principal{
+    margin-left: 2rem;
+    font-size: 52px;
+    
+}
+.subtitutuloBanner{
+    margin-left: 2rem;
+    font-size: 22px;
+}
