@@ -1,10 +1,10 @@
 var obteniendoDatos = () =>{
-    return fetch("http://localhost:3000/registro")
+    return fetch(" http://localhost:3000/registro")
 }
 
 
 var publicandoNuevousuario = (correo,contraseña,registro) =>{
-       return fetch("http://localhost:3000/registro",{
+       return fetch(" http://localhost:3000/registro",{
            method:"POST",
            headers:{
                "Content-Type":"application/json"
