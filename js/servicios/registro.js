@@ -1,10 +1,10 @@
 var obteniendoDatos = () =>{
-    return fetch("https://my-json-server.typicode.com/camilosanta/APPI_AluraGeekTienda.github.io/registro")
+    return fetch("http://localhost:3000/registro")
 }
 
 
 var publicandoNuevousuario = (correo,contraseña,registro) =>{
-       return fetch("https://my-json-server.typicode.com/camilosanta/APPI_AluraGeekTienda.github.io/registro",{
+       return fetch("http://localhost:3000/registro",{
            method:"POST",
            headers:{
                "Content-Type":"application/json"
