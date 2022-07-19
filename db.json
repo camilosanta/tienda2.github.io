@@ -159,6 +159,26 @@
       "vermas": "si",
       "categoria": "Diversos",
       "id": "b013cc3f-94da-497f-9289-ce8598511d8c"
+    },
+    {
+      "url": "img/productos/10.png",
+      "nombre": "Consola xyz",
+      "precio": "60.00",
+      "eliminar": "eliminar",
+      "editar": "editar",
+      "vermas": "si",
+      "categoria": "Consolas",
+      "id": "a18ed506-ee9a-44a0-8fda-4b4cf7846e75"
+    },
+    {
+      "url": "img/productos/13.png",
+      "nombre": "Diversos xyz",
+      "precio": "60.00",
+      "categoria": "Diversos",
+      "eliminar": "eliminar",
+      "editar": "editar",
+      "vermas": "si",
+      "id": "7f852e07-5fda-43d9-bfa6-bb1b4ed69b38"
     }
   ],
   "registro": [
