@@ -18,7 +18,7 @@ var creandoProductovermas = async () => {
 // publicando producto 
 // colocando metodo a la fetch
 var publicandoNuevoProducto = (url,nombre,precio,categoria,eliminar,editar,vermas) =>{
-    return fetch(" http://localhost:3000/imagen",{
+    return fetch(" https://my-json-server.typicode.com/camilosanta/tienda2.github.io/imagen",{
         method:"POST",
         headers:{
             "Content-Type":"application/json"
@@ -31,7 +31,7 @@ var publicandoNuevoProducto = (url,nombre,precio,categoria,eliminar,editar,verma
    const eliminarProductoprin = (id) =>{
     console.log("eliminar Producto a :")
     // en la url se pone el ${id} dentro de la urll por que es el que escoje la id
-    return fetch(` http://localhost:3000/imagen/${id}`,{
+    return fetch(`https://my-json-server.typicode.com/camilosanta/tienda2.github.io/imagen/${id}`,{
         method: "DELETE",
 
     })
@@ -40,14 +40,14 @@ var publicandoNuevoProducto = (url,nombre,precio,categoria,eliminar,editar,verma
 // detalles producto  obtine los datos del producto para pasarlos al editor 
 
 const detallesProducto = (id) =>{
-    return fetch(` http://localhost:3000/imagen${id}`).then((respuesta) =>  respuesta.json());
+    return fetch(` https://my-json-server.typicode.com/camilosanta/tienda2.github.io/imagen/${id}`).then((respuesta) =>  respuesta.json());
 };
 
 
 //actualizando datos de productos
 
 const actualizandoDatos = (url,nombre,precio,eliminar,editar,vermas,categoria,id) =>{
-    return fetch(` http://localhost:3000/imagen/${id}`,{
+    return fetch(`https://my-json-server.typicode.com/camilosanta/tienda2.github.io/imagen/${id}`,{
     method : "PUT",
     headers :{
         "Content-Type":"application/json"
