@@ -179,6 +179,16 @@
       "editar": "editar",
       "vermas": "si",
       "id": "7f852e07-5fda-43d9-bfa6-bb1b4ed69b38"
+    },
+    {
+      "url": "https://www.rdstation.com/blog/wp-content/uploads/sites/2/2017/09/thestocks.jpg",
+      "nombre": "Bombillo",
+      "precio": "120",
+      "categoria": "Consolas",
+      "eliminar": "eliminar",
+      "editar": "editar",
+      "vermas": "si",
+      "id": "bfa15ab9-cfc6-4900-8221-e39dff83887b"
     }
   ],
   "registro": [
