@@ -1,17 +1,3 @@
-.banner-titulos{
-    position: absolute;
-    top: 325px;
-    color: white;
-}
-.titulo-banner-principal{
-    margin-left: 2rem;
-    font-size: 52px;
-    
-}
-.subtitutuloBanner{
-    margin-left: 2rem;
-    font-size: 22px;
-}
 
 
 @media only screen and (min-width: 1199px) {
@@ -31,9 +17,28 @@
     }
     
 }
-/*Celular*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
+
+    .banner-titulos{
+        position: absolute;
+        top: 250px;
+        color: white;
+    }
+    .titulo-banner-principal{
+        margin-left: 2rem;
+        font-size: 52px;
+        
+    }
+    .subtitutuloBanner{
+        margin-left: 2rem;
+        font-size: 22px;
+    }
+    
+    
+
+}
+@media only screen and (max-width: 767px) {
 
     .banner-titulos{
         position: absolute;

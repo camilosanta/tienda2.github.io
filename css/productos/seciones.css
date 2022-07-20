@@ -1,24 +1,29 @@
-.seccion-1,.seccion-2,.seccion-3{
 
-    margin: 2rem 4rem;
-}
+@media only screen and (min-width: 768px) {
 
-.producto-s1,.producto-s2,.producto-s2{
-    display: flex;
-    flex-direction: column;
+    .seccion-1,.seccion-2,.seccion-3{
 
-    margin-left: 0.8rem;
+        margin: 2rem 4rem;
+    }
     
-}
+    .producto-s1,.producto-s2,.producto-s2{
+        display: flex;
+        flex-direction: column;
+    
+        margin-left: 0.8rem;
+        
+    }
+    
+    .productos-starwars,.productos-cosolas,.productos-diversos{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        margin: 2rem 0rem;
+    }
+    
 
-.productos-starwars,.productos-cosolas,.productos-diversos{
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    margin: 2rem 0rem;
 }
-
 
 @media only screen and (min-width: 1199px) {
     .seccion-1,.seccion-2,.seccion-3{

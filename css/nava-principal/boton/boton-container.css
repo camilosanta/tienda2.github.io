@@ -1,9 +1,4 @@
-.boton-login{
-    position: relative;
-    left: 40%;
-    display: flex;
-    flex-direction: column;
-}
+
 
 @media only screen and (min-width: 1199px) {
     .boton-login{
@@ -14,6 +9,18 @@
     }
     
     
+}
+
+@media only screen and (min-width: 768px) {
+
+    .boton-login{
+        position: relative;
+        left: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+
 }
 /*Celular*/
 

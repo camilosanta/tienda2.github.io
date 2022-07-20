@@ -1,18 +1,22 @@
-.nav-principal{
-    display: flex;
-    align-items: center;
-    padding: 37px;
-}
 
-.titulo1-logo{
-    color: #2A7AE4 ;
-    margin-left: 0.5rem;
-}
+@media only screen and (min-width: 768px) {
+    .nav-principal{
+        display: flex;
+        align-items: center;
+        padding: 15px;
+    }
+    
+    .titulo1-logo{
+        color: #2A7AE4 ;
+        margin-left: 0.5rem;
+    }
+    
+    .titulo2-logo{
+        margin-right:0.5rem ;
+    }
+    
 
-.titulo2-logo{
-    margin-right:0.5rem ;
 }
-
 
 @media only screen and (min-width: 1199px) {
     .nav-principal{
