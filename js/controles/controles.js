@@ -125,7 +125,8 @@ var TodosLosProductos = (urlServer,nombre,claseelimniar,claseeditar,precio,id) =
             data.forEach(({url,nombre,eliminar,editar,precio,id}) => {
             var vermas = TodosLosProductos(url,nombre,eliminar,editar,precio,id) 
                 vermasProducto.appendChild(vermas) 
-
+                
+              
         })
         }).catch((error) => console.log("ocurrio un error"));
 
@@ -144,6 +145,7 @@ var formulario = document.querySelector("[data-publicarform]")
              evento.preventDefault();    
 
           PublicacionProducto.publicandoNuevoProducto(url,nombre,precio,"Star Wars","eliminar","editar","si") 
+          window.location.href = "vermas.html"
         
             }
 
@@ -151,6 +153,7 @@ var formulario = document.querySelector("[data-publicarform]")
              evento.preventDefault();    
 
          PublicacionProducto.publicandoNuevoProducto(url,nombre,precio,"Consolas","eliminar","editar","si") 
+         window.location.href = "vermas.html"
            }
 
             if(categoria == "Diversos" ){
@@ -159,7 +162,7 @@ var formulario = document.querySelector("[data-publicarform]")
 
          PublicacionProducto.publicandoNuevoProducto(url,nombre,precio,"Diversos","eliminar","editar","si") 
         
-   
+         window.location.href = "vermas.html"
 
          console.log(formulario) }
 })  
