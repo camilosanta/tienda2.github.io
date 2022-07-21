@@ -1,5 +1,5 @@
 # tienda2.github.io
-Bienvenidos a alurageeck una tienda online 
+Bienvenidos a alurageek una tienda online 
 
 creador : Juan camilo santacruz 
 correo: santacruz1357@gmial.com
