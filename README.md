@@ -5,7 +5,7 @@ creador : Juan camilo santacruz
 correo: santacruz1357@gmial.com
 
 
-esto son los archivos de alurageeck la pagina funciona pero no cargan los productos y algunas opciones ya que estan en json y para poder que se ejecuten tines que hacer lo siguienta 
+esto son los archivos de alurageeck la pagina funciona pero no cargan los productos y algunas opciones ya que estan en json y para poder que se ejecuten tienes que hacer lo siguienta 
 1 descargue el proyecto 
 2 extraigalo
 3 abra el proyecto en el cmd
